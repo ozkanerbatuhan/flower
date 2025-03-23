@@ -1,24 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌹 Animasyonlu Çiçek Projesi
 
-## Getting Started
+Bu proje, Next.js ve Tailwind CSS kullanılarak geliştirilmiş interaktif bir çiçek animasyonu web uygulamasıdır. Proje, modern web teknolojilerini kullanarak estetik ve etkileyici bir kullanıcı deneyimi sunmayı amaçlamaktadır.
 
-First, run the development server:
+## 🌟 Özellikler
 
+- Gerçekçi çiçek animasyonu
+- Dinamik yıldız efektleri
+- Responsive tasarım
+- Gece gökyüzü arka planı
+- 3D görsel efektler
+
+## 🚀 Teknolojiler
+
+- Next.js 14
+- React
+- Tailwind CSS
+- TypeScript
+
+## 💻 Kurulum
+
+Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyin:
+
+1. Projeyi klonlayın:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone [repo-url]
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Proje dizinine gidin:
+```bash
+cd flower
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Bağımlılıkları yükleyin:
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Geliştirme sunucusunu başlatın:
+```bash
+npm run dev
+```
+
+5. Tarayıcınızda [http://localhost:3000](http://localhost:3000) adresini açın.
+
+## 🎨 Özelleştirme
+
+Animasyonun görünümünü özelleştirmek için aşağıdaki dosyaları düzenleyebilirsiniz:
+
+- `src/components/GulAnimation.tsx`: Ana animasyon bileşeni
+- `src/app/globals.css`: Animasyon stilleri ve keyframe'ler
+
+## 👤 Geliştirici
+
+Batuhan Özakner
+
+## 📝 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır.
 
 ## Learn More
 
