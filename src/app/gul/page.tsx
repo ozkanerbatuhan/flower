@@ -1,8 +1,7 @@
-import FlowerAnimation from '@/components/FlowerAnimation'
-import GulAnimation from '@/components/GulAnimation'
+import React from 'react';
+import GulAnimation from '@/components/GulAnimation';
 
-export default function Home() {
-
+export default function GulPage() {
   return (
     <main className="w-full h-screen overflow-hidden">
       <GulAnimation />
@@ -11,5 +10,5 @@ export default function Home() {
         Created by Batuhan Özakner
       </footer>
     </main>
-  )
-}
+  );
+} 
